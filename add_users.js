@@ -7,7 +7,7 @@ fetch('users.php', {
 	.then((res) => res.json())
 	.then((res) => {
 		console.log(res)
-		html = '<div class = "item_users">'
+		html = '<div class = "items_users">'
 		for (i = 0; i < res.length; i++) {
 			html += '<h1>' + res[i]['name'] + '</h1>'
 			html += '<h1>' + res[i]['surname'] + '</h1>'

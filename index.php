@@ -1,3 +1,6 @@
+<?
+include "nav.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,25 +9,20 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-	<h1>Главная страница</h1>
-	<a href="reg.php">Зарегистрироваться</a>
-	<a href="reg_tovar.php">Товар</a>
+	<h1 class='title' align='center'>Главная страница</h1>
 
-	<div class="item_users">
-
-	</div>
-
-	<div class="item_tovar">
+	<h2 class='subtitle' align = 'center'>Товары</h2>
+	<div class="items_tovar">
 
 	</div>
 
-
-
-	<script src="add_users.js"></script>
+	<!-- <script src="add_users.js"></script> -->
 	<script src="add_tovar.js"></script>
+	<!-- <script src="add_cart.js"></script> -->
 	<script src="jquery-3.6.0.min.js"></script>
 </body>
 
