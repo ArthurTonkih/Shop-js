@@ -1,4 +1,4 @@
-<? $link = mysqli_connect('localhost', 'root', 'root', 'shop1'); ?>
+<? $link = mysqli_connect('localhost', 'root', '', 'shop'); ?>
 
 <!DOCTYPE html>
 <html>
