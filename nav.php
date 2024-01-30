@@ -1,4 +1,4 @@
-<? $link = mysqli_connect('localhost', 'root', '', 'shop'); ?>
+<? include "link.php"; ?>
 
 <!DOCTYPE html>
 <html>

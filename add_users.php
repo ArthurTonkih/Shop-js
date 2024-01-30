@@ -1,6 +1,6 @@
 <?php
+include "link.php";
 $data = json_decode(file_get_contents('php://input'));
-$link = mysqli_connect("localhost", "root", "root", "shop");
 var_dump($data);
 $name = $data->name;
 $surname = $data->surname;

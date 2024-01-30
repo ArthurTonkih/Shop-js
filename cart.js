@@ -22,8 +22,5 @@ let addcart = document.querySelector('.addcart');
 		.then((res) => res.text())
 		.then((res) => {
 			console.log(res)
-			// if (res == 'ok') {
-			// 	$('.ok').html('Спасибо за регистрацию')
-			// }
 		})
 })

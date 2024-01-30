@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.2
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Ноя 13 2023 г., 16:11
--- Версия сервера: 10.3.22-MariaDB
--- Версия PHP: 7.1.33
+-- Время создания: Янв 30 2024 г., 16:32
+-- Версия сервера: 10.8.4-MariaDB
+-- Версия PHP: 7.2.34
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -39,8 +39,9 @@ CREATE TABLE `tovar` (
 --
 
 INSERT INTO `tovar` (`id`, `title`, `description`, `price`) VALUES
-(1, 'Лего конструктор', 'Набор Lego. Дом с приведением.', 4999),
-(2, 'aa', 'nn', 1221);
+(1, 'Дом с приведением', 'Набор Lego', 4999),
+(2, 'Корабль пиратов', 'Конструктор Lego', 5990),
+(3, 'rr', 'tt', 123);
 
 -- --------------------------------------------------------
 
@@ -87,13 +88,13 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT для таблицы `tovar`
 --
 ALTER TABLE `tovar`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT для таблицы `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
